@@ -1,0 +1,92 @@
+:root {
+  --font-primary:
+    'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-secondary:
+    'Roboto', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+
+  --container-padding-mobile: 16px;
+  --container-padding-tablet-sm: 60px;
+  --container-padding-tablet: 100px;
+  --container-padding-desktop: 140px;
+
+  /* Neutrals */
+  --neutral-0: #ffffff;
+  --neutral-50: #f7f7f9;
+  --neutral-100: #eef0f4;
+  --neutral-200: #c4c8d0;
+  --neutral-300: #a4abb7;
+  --neutral-500: #74798a;
+  --neutral-800: #272936;
+  --neutral-900: #040406;
+
+  /* Primary color (accent/decor) */
+  --purple-50: #e8d4ff;
+  --purple-100: #d6b2ff;
+  --purple-200: #bd81ff;
+  --purple-300: #a452fa;
+  --purple-400: #8f2fee;
+  --purple-600: #681eab;
+  --purple-700: #5a1b90;
+  --purple-800: #390566;
+
+  /* Text */
+  --text-primary: var(--neutral-900);
+  --text-secondary: var(--neutral-800);
+  --text-muted: var(--neutral-500);
+  --text-inverse: var(--neutral-0);
+
+  /* Backgrounds- light theme */
+  --bg-page: var(--neutral-0);
+  --bg-accent-section: var(--purple-600);
+  --bg-surface: var(--neutral-0);
+  --bg-subtle: var(--neutral-50);
+  --bg-elevated: var(--neutral-100);
+
+  /* Borders / dividers */
+  --border-subtle: var(--neutral-100);
+  --border-default: var(--neutral-200);
+
+  /* Accent (decorative) */
+  --accent: var(--purple-300);
+  --accent-hover: var(--purple-700);
+  --accent-soft: var(--purple-200);
+  --accent-soft-2: var(--purple-50);
+
+  /* Buttons */
+  --btn-primary-bg: var(--accent);
+  --btn-primary-bg-hover: var(--accent-hover);
+  --btn-primary-text: var(--text-inverse);
+
+  /* Links */
+  --link: var(--accent);
+  --link-hover: var(--accent-hover);
+
+  /* Focus ring */
+  --focus-ring: var(--purple-300);
+
+  --container-width: 1440px;
+
+  --bp-mobile: 375px;
+  --bp-tablet-sm: 768px;
+  --bp-tablet: 1024px;
+  --bp-desktop: 1440px;
+
+  /* Heading */
+
+  --h1-size: 32px;
+  --h1-line: 1.2;
+  --h1-weight: 600;
+
+  --h2-size: 24px;
+  --h2-line: 1.55;
+  --h2-weight: 600;
+
+  --h3-size: 12px;
+  --h3-line: 1.55;
+  --h3-weight: 600;
+
+  /* Body text */
+  --text-size: 12px;
+  --text-line: 1.55;
+  --text-weight: 400;
+}

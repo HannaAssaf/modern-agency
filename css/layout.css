@@ -1,0 +1,13 @@
+.section {
+  padding: 12px 0;
+}
+.section-divider {
+  border-bottom: 1px solid var(--border-default);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding-mobile);
+}
