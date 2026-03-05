@@ -224,9 +224,143 @@
 /* < / ABOUT > */
 
 /* < STATISTIC > */
+.statistics-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  text-align: center;
+}
+
+.statistics-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.statistics-value {
+  font-family: var(--font-primary);
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.statistics-label {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
 /* < / STATISTIC > */
 
 /* < WHAT WE DO > */
+.services-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.services-kicker {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.services-item-title {
+  font-size: clamp(20px, 4.5vw, var(--h2-size));
+  margin: 0;
+  line-height: var(--h2-line);
+  font-weight: var(--h2-weight);
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+
+.services-media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.services-media-item {
+  display: block;
+  margin: 0;
+}
+
+.services-media-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border-default);
+}
+
+.services-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0;
+  /* border-bottom: 1px solid var(--border-default); */
+}
+
+.services-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.services-item-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--accent);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.services-item-icon {
+  width: 10px;
+  height: 10px;
+  fill: var(--text-inverse);
+}
+
+.services-item-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: var(--text-line);
+  font-weight: var(--text-weight);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.services-cta {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 12px;
+  background-color: var(--accent);
+  color: var(--text-inverse);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
 /* < / WHAT WE DO > */
 
 /* < PORTFOLIO > */
