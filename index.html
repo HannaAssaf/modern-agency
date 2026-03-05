@@ -84,37 +84,38 @@
           <ul class="brand-list">
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#evernote"></use>
+                <use href="images/sprite.svg#evernote"></use>
               </svg>
             </li>
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#airtable"></use>
+                <use href="images/sprite.svg#airtable"></use>
               </svg>
             </li>
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#coinbase"></use>
+                <use href="images/sprite.svg#coinbase"></use>
               </svg>
             </li>
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#stripe"></use>
+                <use href="images/sprite.svg#stripe"></use>
               </svg>
             </li>
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#intercom"></use>
+                <use href="images/sprite.svg#intercom"></use>
               </svg>
             </li>
             <li class="brand-item">
               <svg class="brand-icon" aria-hidden="true" focusable="false">
-                <use href="/images/sprite.svg#linear"></use>
+                <use href="images/sprite.svg#linear"></use>
               </svg>
             </li>
           </ul>
         </div>
       </section>
+      <!-- < TEAM > -->
       <section class="section section-divider" aria-label="About our team">
         <div class="container">
           <picture class="team-media">
@@ -122,48 +123,132 @@
             <source
               media="(min-width: 1440px)"
               srcset="
-                /images/webp/team-desktop@1x.webp 1x,
-                /images/webp/team-desktop@2x.webp 2x
+                images/webp/team-desktop@1x.webp 1x,
+                images/webp/team-desktop@2x.webp 2x
               "
               type="image/webp"
             />
             <source
               media="(min-width:1440px)"
-              srcset="/images/desktop@1x.jpg 1x, /images/desktop@2x.jpg 2x"
+              srcset="images/desktop@1x.jpg 1x, images/desktop@2x.jpg 2x"
             />
             <!-- tablet -->
             <source
               media="(min-width: 1024px)"
               srcset="
-                /images/webp/team-tablet@1x.webp 1x,
-                /images/webp/team-tablet@2x.webp 2x
+                images/webp/team-tablet@1x.webp 1x,
+                images/webp/team-tablet@2x.webp 2x
               "
               type="image/webp"
             />
             <source
               media="(min-width:1024px)"
-              srcset="/images/tablet@1x.jpg 1x, /images/tablet@2x.jpg 2x"
+              srcset="images/tablet@1x.jpg 1x, images/tablet@2x.jpg 2x"
             />
             <!-- mobile -->
             <source
               srcset="
-                /images/webp/team-mobile@1x.webp 1x,
-                /images/webp/team-mobile@2x.webp 2x
+                images/webp/team-mobile@1x.webp 1x,
+                images/webp/team-mobile@2x.webp 2x
               "
               type="image/webp"
             />
             <img
               class="team-img"
-              src="/images/team-mobile@1x.jpg"
+              src="images/team-mobile@1x.jpg"
               alt="Agency work team - five managers"
               srcset="
-                /images/team-mobile@1x.jpg 1x,
-                /images/team-mobile@2x.jpg 2x
+                images/team-mobile@1x.jpg 1x,
+                images/team-mobile@2x.jpg 2x
               "
             />
           </picture>
         </div>
       </section>
+      <!-- </ TEAM> -->
+
+      <!-- < ABOUT >  -->
+      <section class="section-divider" aria-label="About our team">
+        <div class="container about-container" id="about-us">
+          <div class="about-photo-frame">
+            <picture class="about-picture">
+              <!-- desktop -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  images/webp/about-desktop@1x.web 1x,
+                  images/webp/about-desktop@2x.web 2x
+                "
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  images/about-desktop@1x.jpg 1x,
+                  images/about-desktop@2x.jpg 2x
+                "
+              />
+              <!-- tablet -->
+              <source
+                media="(min-width: 1024px)"
+                srcset="
+                  images/webp/about-tablet@1x.webp 1x,
+                  images/webp/about-tablet@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="
+                  images/about-tablet@1x.jpg 1x,
+                  images/about-tablet@2x.jpg 2x
+                "
+              />
+              <!-- mobile -->
+              <source
+                srcset="
+                  images/webp/about-mobile@1x.webp 1x,
+                  images/webp/about-mobile@2x.webp 2x
+                "
+              />
+              <img
+                class="about-photo"
+                src="images/about-mobile@1x.jpg"
+                srcset="
+                  images/about-mobile@1x.jpg 1x,
+                  images/about-mobile@2x.jpg 2x
+                "
+                alt="Team collaborating in the office"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+          </div>
+          <div class="about-content">
+            <div class="about-top">
+              <p class="about-kicker">About us</p>
+
+              <a class="about-cta" href="#contact" aria-label="Contact us">
+                <svg
+                  class="about-cta-icon"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <use href="images/sprite.svg#arrow-hero"></use>
+                </svg>
+              </a>
+            </div>
+
+            <h2 class="about-title">Who we are</h2>
+
+            <p class="about-text">
+              We are a team of innovative designers, developers, and strategists
+              dedicated to crafting impactful digital solutions. Our mission is
+              to help brands achieve their digital potential through creativity
+              and technology.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- < / ABOUT > -->
     </main>
     <footer></footer>
     <div class="cookie-banner" hidden>

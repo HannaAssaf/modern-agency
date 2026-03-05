@@ -111,6 +111,116 @@
 /* < / TEAM > */
 
 /* < ABOUT > */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  --photo-col: 155.5px;
+  --photo-gap: 0px;
+}
+.about-photo-frame {
+  position: relative;
+  border: none;
+  background: transparent;
+  --pad-x: 12px;
+  padding: 0 var(--pad-x);
+  flex: 0 0 calc(var(--photo-col) - (2 * var(--pad-x)));
+}
+
+.about-photo-frame::before,
+.about-photo-frame::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border-default);
+  pointer-events: none;
+}
+.about-photo-frame::before {
+  left: 0;
+}
+.about-photo-frame::after {
+  right: 0;
+}
+
+.about-picture,
+.about-photo {
+  display: block;
+}
+.about-picture {
+  padding: 32px 0;
+}
+.about-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* RIGHT */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  padding-top: 28px;
+}
+
+.about-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.about-kicker {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.about-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--accent);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.about-cta-icon {
+  width: 10px;
+  height: 10px;
+  fill: var(--text-inverse);
+}
+
+.about-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: var(--h2-line);
+  font-weight: var(--h2-weight);
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin: 0;
+  font-size: var(--text-size);
+  line-height: var(--text-line);
+  font-weight: var(--text-weight);
+  text-transform: uppercase;
+  max-width: 520px;
+  color: var(--text-muted);
+}
+
 /* < / ABOUT > */
 
 /* < STATISTIC > */
