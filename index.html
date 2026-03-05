@@ -11,8 +11,6 @@
     />
     <meta name="author" content="Hanna Assaf - Full Stack Developer" />
 
-    <link rel="icon" href="assets/icons/favicon.png" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +23,7 @@
     <!-- <a class="skip-link" href="#main">Skip to content</a> -->
     <header class="header section-divider" id="header">
       <div class="container header-container">
-        <a href="../index.html" class="logo" aria-label="Pagepro home">
+        <a href="./index.html" class="logo" aria-label="Pagepro home">
           <svg class="logo-icon" aria-hidden="true">
             <use href="images/sprite.svg#logo"></use>
           </svg>
@@ -61,7 +59,112 @@
         </button>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="hero section section-divider" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Your Partner in Creative Digital Excellence
+            </h1>
+            <a class="hero-cta" href="#contact" aria-label="Contact us">
+              <svg class="hero-cta-icon" aria-hidden="true">
+                <use href="images/sprite.svg#arrow-hero"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="brand-section section section-divider">
+        <h2 class="visually-hidden">
+          This brands working with us: Evernote, Airtable, Coinbase, Stripe,
+          Intercom and Linear
+        </h2>
+        <div class="container">
+          <p class="brand-title">Trusted by companies worldwide</p>
+          <ul class="brand-list">
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#evernote"></use>
+              </svg>
+            </li>
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#airtable"></use>
+              </svg>
+            </li>
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#coinbase"></use>
+              </svg>
+            </li>
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#stripe"></use>
+              </svg>
+            </li>
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#intercom"></use>
+              </svg>
+            </li>
+            <li class="brand-item">
+              <svg class="brand-icon" aria-hidden="true" focusable="false">
+                <use href="/images/sprite.svg#linear"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-divider" aria-label="About our team">
+        <div class="container">
+          <picture class="team-media">
+            <!-- desktop -->
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/webp/team-desktop@1x.webp 1x,
+                /images/webp/team-desktop@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:1440px)"
+              srcset="/images/desktop@1x.jpg 1x, /images/desktop@2x.jpg 2x"
+            />
+            <!-- tablet -->
+            <source
+              media="(min-width: 1024px)"
+              srcset="
+                /images/webp/team-tablet@1x.webp 1x,
+                /images/webp/team-tablet@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:1024px)"
+              srcset="/images/tablet@1x.jpg 1x, /images/tablet@2x.jpg 2x"
+            />
+            <!-- mobile -->
+            <source
+              srcset="
+                /images/webp/team-mobile@1x.webp 1x,
+                /images/webp/team-mobile@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <img
+              class="team-img"
+              src="/images/team-mobile@1x.jpg"
+              alt="Agency work team - five managers"
+              srcset="
+                /images/team-mobile@1x.jpg 1x,
+                /images/team-mobile@2x.jpg 2x
+              "
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <div class="cookie-banner" hidden>
       <p>We use cookies to improve your experience.</p>
